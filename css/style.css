@@ -1,0 +1,36 @@
+.contentArea {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* This helps to make sure everything stays on any screen look at differnt devices it stays on it. */
+  border: solid;
+  padding: 10px;
+}
+
+
+ .contentBox {
+   background-color: green;
+   border:black;
+   display: flex;
+   flex-direction: column;
+   max-width: 230px;
+   /* border: solid; */
+   /* padding: 5px; */
+ }
+ .items {
+   /* border: solid; */
+   /* max-width: 300px; */
+   justify-content: center;
+   padding: 5px;
+ }
+
+.items img {
+  max-width: 200px;
+  max-height: 200px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  color:yellow;
+}
